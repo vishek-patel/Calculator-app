@@ -1,0 +1,119 @@
+*{
+    /*   font-family: */
+        font-family: 'Inter', sans-serif;
+    }
+    body{
+      background-color:#1c1919;
+    }
+    #main{
+      height:500px;
+      width:250px;
+      border:1px solid white;
+      margin:auto;
+      background-color:#121624;
+      border-radius:10px;
+      display:flex;
+      flex-direction:column;
+    }
+    
+    #result{
+      position:relative;
+    /*   background-color:#284318; */
+      /* border:1px solid white; */
+      border-bottom: 1px solid white;
+      height:210px;
+      width:220px;
+      margin:auto;
+    /*   opacity:0.4; */
+      /* border-radius:5px; */
+      overflow: hidden;
+      
+    }
+    #calc {
+        height:210px;
+        width:220px;
+      /* background-color:#193BEA; */
+    /*   opacity:0.2; */
+      margin:auto;
+      /* border:1px solid white; */
+      border-radius:5px;
+     
+    }
+    #grid{
+        /* margin: auto; */
+        /* padding: 12px; */
+
+      width:100%;
+      height:100%;
+       display: grid;
+    grid-template-columns: repeat(4, 1fr);
+    grid-template-rows: repeat(5, 1fr);
+    grid-column-gap: 2px;
+    grid-row-gap: 0px;
+    }
+    button{
+        height:35px;
+        width: 45px;;
+      border-radius:4px;
+      color:white;
+      cursor:pointer;
+    }
+    .operands{
+      background-color:#2143F5;
+      border-radius:4px;
+      opacity:0.6;
+      color:white;
+      transition: all 0.3s ease;
+    }
+    .operands:hover{
+      opacity: 0.45;
+    }
+    
+    .operator{
+      background-color:#8C96ED;
+      transition: all 0.3s ease;
+    }
+    .operator:hover{
+      opacity: 0.6;
+    }
+    
+    #allClearBtn {
+      transition: all 0.3s ease;
+      background-color:#E46C6C;
+      color:white;
+      /*   opacity:0.8; */
+    }
+    #allClearBtn:hover{
+      opacity: 0.6;
+      
+    }
+    
+    
+    #calcBtn{
+      background-color:#62E257;
+      transition: all 0.3s ease;
+    }
+    #calcBtn:hover{
+      opacity: 0.6;
+
+    }
+    
+    #expression{
+       position:absolute;
+      bottom:85px;
+      right:20px;
+      color:#B5A9FF;
+      font-size:20px;
+    }
+    
+    #value{
+      position:absolute;
+      bottom:18px;
+      right:20px;
+      font-size:50px;
+      color:#2EF27D;
+      
+    }
+
+
+    
