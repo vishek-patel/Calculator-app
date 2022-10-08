@@ -74,7 +74,7 @@ calcBtn.addEventListener("click",()=>{
 })
 
 plusMinusBtn.addEventListener("click",()=>{
-    alert(" plusminus button pressed.")
+//     alert(" plusminus button pressed.")
 })
 
 multiplyBtn.addEventListener("click",()=>{
