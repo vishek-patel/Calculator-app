@@ -1,5 +1,5 @@
 # Calculator-app
 Calculator using HTML , CSS and JAVASCRIPT
 
-Try this app using the below link:
+Try online:
 https://vishek-patel.github.io/Calculator-app/
